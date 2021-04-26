@@ -1,0 +1,89 @@
+*{
+    list-style: none;
+}
+
+@media (max-width:580px) {
+     .box-left0 h4,
+     .box-left0 h6,
+     .box-left0 .btn00{
+         text-align: center;
+     }
+     .box-left0 p{
+        padding-left: 61px;
+     }
+     .box-left0 button{
+        margin-left: 38%;
+     }
+}
+
+
+.active{
+    color: hsl(235deg 52% 56%) !important;
+}
+nav a span{
+    color: hsl(235deg 52% 56%) !important;
+}
+
+
+.secondd{
+    background-color: hsl(230deg 33% 96%);
+    width: 100%;
+    height: 350px;
+}
+@media (max-width:580px) {
+    .secondd{
+        height: 620px !important;
+    }
+    .fourth-- p{
+        padding-left: 11px !important;
+        padding-right: 11px !important; 
+    }
+}
+@media (max-width:767px) {
+    .secondd{
+        height: 575px;
+    }
+}
+
+
+
+
+.btn00{
+    border-radius: 28px;
+    padding: 6px 21px;
+    background: hsl(227deg 90% 63%);
+    color: #FFF;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.btn00:focus{
+    outline: none;
+    border: none;
+}
+.btn00:hover{
+    background-color: rgb(255, 14, 14);
+    transition: 0.7s;
+}
+
+
+.fourth--{
+    background-color: hsl(230deg 33% 96%);
+    width: 100%;
+    height: auto;
+}
+@media (max-width:575px) {
+    .card{
+        margin: 15px 116px;
+    }
+    .sex--- .hidd{
+        visibility: hidden;
+    }
+}
+
+
+.sex---{
+    width: 100%;
+    height: auto;
+    background-color: hsl(230deg 33% 96%);
+}
